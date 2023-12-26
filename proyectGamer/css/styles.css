@@ -1,0 +1,78 @@
+
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background-color: #fce5cd; /* Fondo color crema */
+    background-image: url('https://i.pinimg.com/originals/8f/cc/f5/8fccf53d9f351b45496b6c8241203e91.gif'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño para cubrir todo el cuerpo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 1s ease-in-out;
+    font-size: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#question {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+}
+
+#options-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.option {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #188eee; /* Azul claro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    
+
+
+}
+
+
+
+
+.option:hover {
+    background-color: #145081; /* Azul más oscuro al pasar el ratón */
+}
+
+#next-button {
+    font-size: 30px;
+    padding: 15px 25px;
+    margin-top: 50px;
+    background-color: #f06292; /* Rosa */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#next-button:hover {
+    background-color: #ec407a; /* Rosa más oscuro al pasar el ratón */
+}
+
+.feedback {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}
